@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/game_over"
+    tools:context="com.gamevn.choosecolor.GameOver">
+
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adView"
+        ads:adUnitId="ca-app-pub-1857950562418699/7420407964"
+        ads:adSize="SMART_BANNER"
+        android:layout_alignParentBottom="true"/>
+    <ImageButton
+        android:id="@+id/btnSound"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/sound"
+        android:layout_margin="8dp"/>
+    <ImageButton
+        android:id="@+id/btnthanhtich"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/thanhtich"
+        android:layout_margin="8dp"
+        android:layout_alignParentRight="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/score"
+        android:layout_marginBottom="20dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:text="@string/app_name"
+            android:id="@+id/tvappname"
+            android:layout_gravity="center_horizontal" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/icon"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="@string/high_score"
+            android:id="@+id/tvhight_score"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="@string/score"
+            android:id="@+id/tvscore"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:id="@+id/btnplay"
+            android:textSize="30sp"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_selector"
+            android:textColor="@color/game_over" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rank"
+            android:background="@drawable/button_selector"
+            android:textSize="30sp"
+            android:layout_margin="10dp"
+            android:id="@+id/btnrank"
+            android:textColor="@color/game_over" />
+
+
+    </TableRow>
+    <LinearLayout
+        android:layout_above="@+id/adView"
+        android:id="@+id/layout2"
+        android:layout_below="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/how_to"
+            android:id="@+id/btnhowto"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_selector"
+            android:textColor="@color/game_over" />
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rate"
+            android:background="@drawable/button_selector"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:id="@+id/btnrate"
+            android:padding="10dp"
+            android:textColor="@color/game_over" />
+
+
+    </LinearLayout>
+</RelativeLayout>

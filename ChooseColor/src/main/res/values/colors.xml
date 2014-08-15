@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="brown">#7B3F00</color>
+    <color name="gray">#808080</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="orange">#ffff8d00</color>
+    <color name="pink">#FF00AF</color>
+    <color name="purple">#800080</color>
+    <color name="blue">#007FFF</color>
+    <color name="green">#00FF00</color>
+    <color name="app_color">#89CFF0</color>
+    <color name="game_over">#007FFF</color>
+    <color name="press">#efefef</color>
+</resources>

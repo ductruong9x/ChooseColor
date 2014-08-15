@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chọn màu đúng</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="red">Đỏ</string>
+    <string name="black">Đen</string>
+    <string name="brown">Nâu</string>
+    <string name="gray">Xám</string>
+    <string name="white">Trắng</string>
+    <string name="yellow">Vàng</string>
+    <string name="orange">Cam</string>
+    <string name="pink">Hồng</string>
+    <string name="purple">Tím</string>
+    <string name="blue">Xanh Lam </string>
+    <string name="green">Lá cây</string>
+    <string name="score">Điểm: %d</string>
+    <string name="title_activity_game_over">GameOver</string>
+    <string name="high_score">Điểm cao: %d</string>
+    <string name="app_id">1034302919254</string>
+    <string name="leaderboard_choose_color">CgkI1qSIio0eEAIQAg</string>
+    <string name="how_to">Cách chơi</string>
+    <string name="share">Chia sẻ</string>
+    <string name="title_activity_how_to">HowToActivity</string>
+    <string name="howtoplay">Cách chơi game hết sức đơn giản. Bạn chọn một màu sắc trong 6 mầu sắc ngẫu nhiên ở bên dưới ô chứa tên màu sắc. Màu chữ của tên không quyết định màu đúng. Bạn cần phải chọn một màu đúng với tên của màu đó chứ không phải màu sắc hiển thị của tên màu. Bạn chỉ có 1s để làm điều đó. Hãy cố găng đạt điểm cao nhất</string>
+    <string name="close">Đóng</string>
+    <string name="share_via">Chia sẻ qua...</string>
+    <string name="rate">Rate</string>
+    <string name="achievement_great">CgkI1qSIio0eEAIQAw</string>
+    <string name="achievement_good">CgkI1qSIio0eEAIQBA</string>
+    <string name="achievement_very_good">CgkI1qSIio0eEAIQBQ</string>
+    <string name="achievement_super_man">CgkI1qSIio0eEAIQBg</string>
+    <string name="achievement_crazy">CgkI1qSIio0eEAIQBw</string>
+    <string name="achievement_are_you_cheat_">CgkI1qSIio0eEAIQCA</string>
+</resources>
